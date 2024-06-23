@@ -1,0 +1,363 @@
+/* Header styel */
+*{
+    margin: 10px;
+}
+.head-img{
+    display: flex;
+    gap: 14px;
+}
+.or{
+    color: rgb(231, 75, 19);
+}
+body{
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    
+}
+.head-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hmc{
+    text-align: center;
+}
+.hmt{
+    font-size:50px ;
+    color: white
+
+}
+.hmp{
+    font-size: 20px;
+    width: 50%;
+    margin: 0px auto;
+    color: white
+}
+.hminp>input{
+    padding:10px  10px;
+    border-radius: 10px;
+    font-size:10px;
+    margin-right: 20px;
+
+}
+.bor{
+    padding:10px 60px ;
+    border-radius: 10px;
+    background-color: rgb(222, 71, 16);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+
+.hminp{
+    background-color: rgba(197, 199, 198, 0.987);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;;
+    padding: 6px ;
+    margin:0px 80px ;
+    margin-top: 100px;
+
+
+}
+.img{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    padding: 100px;
+     
+
+}
+.bar{
+    display: none;
+}
+.bara a{
+    display: none;
+}
+.bcct{
+    font-size: 50px;
+    
+}
+.bct{
+    width: 35%;
+}
+.bc{
+    display: flex;
+    justify-content: space-between;
+}
+.maing{
+    text-align: center;
+
+}
+
+
+
+
+
+/* grid styel */
+.one >.it>img{
+    width:570px;
+}
+.one{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.three>img{
+    width: 400px;
+}
+.three{
+    display: flex;
+    gap: 2px;
+    margin-top: 10px;
+}
+.ja{
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    top: -200px;
+}
+/* jho */
+.bave{
+    display: flex;
+
+}
+.bav{
+    background-color: rgb(126, 203, 223);
+    border-radius: 10px;
+    padding: 20px;
+}
+.gah{
+    display: flex;
+}
+.ga{
+    background-color: rgb(215, 209, 196);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 300px;
+}
+.cod{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+.csaf{
+    background-color: aliceblue;
+    width:  400px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    right: -590px;
+    top: 100px;
+}
+.csaf  nav >ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+.csafq nav >ul{
+    display: flex;
+    list-style: none;
+    gap: 5px; 
+}
+.da{
+    color: rgb(222, 122, 51);
+    margin-bottom: 20px;
+}
+.csafq{
+    background-color: aliceblue;
+    width:  400px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+
+}
+.gna{
+    color: white;
+    position: relative;
+    top: -300px;
+    left: 100px;
+    width: 50%;
+}
+.fin{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 300px;
+    border-radius: 10px;
+
+    
+    
+}
+.fin>input{
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+.hgh{
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    height: 300px;
+}
+.jaka{
+    background-color: rgb(192, 85, 9);
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -190px;
+    left: 250px;
+        
+}
+    
+.fw{
+    color: white;
+    text-align: center;
+}
+.rafi{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.froy{
+    border-bottom: 5px solid cornsilk;
+}
+.ka{
+    display:flex;
+
+
+}
+.kp{
+    border-bottom: 5px solid;
+}
+footer{
+    padding: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+#ga{
+    position: relative;
+    right: -150px;
+}
+
+
+@media screen and (max-width:700px) {
+nav{
+    display: none;
+}
+
+    
+    
+
+.hminp{
+    padding: 0px;
+    flex-direction: column;
+}
+.hminp>input{
+    padding: 10px 20px;
+}
+.bar{
+    width: 30px;
+    display: flex;
+}
+.bara{
+    border: white;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+}
+ .bara:hover.bara a{
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    
+
+}
+.bc{
+    flex-direction: column;
+
+
+
+}
+*{
+    margin: 5px;
+}
+.img{
+    background-size: cover;
+}
+.bct{
+    width: 70%;
+}
+.one>img{
+width: auto;
+}
+.one{
+flex-direction: column;
+
+}
+.three{
+flex-direction:column ;
+}
+.three>img{
+    width: auto;
+}
+.csaf{
+    background-color: aliceblue;
+    width:  400px;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    
+
+
+
+    
+}
+.cod{
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size:auto ;
+}
+.csaf >nav{
+    display: flex;
+}
+.csafq>nav{
+    display: flex;
+}
+.ga{
+    background-color: rgb(215, 209, 196);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px;
+}
+.rafi{
+    flex-direction: column;
+}
+#ga{
+    position: relative;
+    right: 0px;
+}
+
+}
